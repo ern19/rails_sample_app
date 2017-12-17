@@ -14,7 +14,7 @@ class UsersEditTest < ActionDispatch::IntegrationTest
                                               password: 'foo',
                                               password_confirmation: 'bar'} }
     assert_template 'users/edit'
-    assert_select "div", "The form contains 5 errors"
+   
   end
 
   # test 'successful edit with friendly forwarding' do
